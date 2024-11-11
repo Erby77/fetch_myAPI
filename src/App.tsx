@@ -10,7 +10,7 @@ function App() {
 	};
 	const [employee, setEmployee] = useState(sampleEmployee);
 	const getEmployee = () => {
-		// Send the request
+		// remplacement par mon api local
 		fetch("http://localhost:3310/api/employees")
 			.then((response) => response.json())
 			.then((data) => {
